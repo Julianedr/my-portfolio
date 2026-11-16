@@ -1,0 +1,64 @@
+
+:root {
+  /* Cores primitivas */
+  --ink-600: #2A2A3E;
+  --ink-700: #1E1E2E;
+  --ink-800: #14141F;
+  --ink-900: #0B0B12;
+
+  --violet-300: #C18BFA;
+  --violet-400: #B85CF6;
+  --violet-500: #B22CD4;
+
+  --cyan-300: #67E8F9;
+  --cyan-400: #22D3EE;
+
+  --pink-400: #F472B6;
+
+  --neutral-50: #ffffff;
+  --neutral-100: #F5F5F7;
+  --neutral-300: #A1A1B5;
+  --neutral-400: #8A8AA0;
+
+
+  /* Cores de fundo */
+  --color-bg-base: var(--ink-900);
+  --color-bg-surface: var(--ink-800);
+  --color-bg-elevated: var(--ink-700);
+
+
+
+  /* Cores de texto */
+  --color-text-primary: var(--neutral-50);
+  --color-text-secondary: var(--neutral-300);
+  --color-text-muted: var(--neutral-400);
+
+
+/* Feedback de cores */
+  --color-success: #34D399;
+  --color-error: #F87171;
+  --color-warning: #CFB049;
+
+
+  
+  /* Espaçamentos */
+  --spacing-3xs: 4px;
+  --spacing-2xs: 8px;
+  --spacing-xs: 12px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 48px;
+  --spacing-2xl: 64px;
+  --spacing-3xl: 180px;
+
+  /* Bordas */
+  --radius-small: 8px;
+  --radius-medium: 16px;
+  --radius-large: 24px;
+
+  /* Tipografia */
+  --font-display: var(--font-sora), sans-serif;
+  --font-primary: var(--font-inter), sans-serif;
+  --font-mono: var(--font-jetbrains), monospace;
+}
